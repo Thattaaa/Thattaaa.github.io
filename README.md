@@ -1,3 +1,4 @@
-# Portfolio
+# My Portfolio website!
 
-## The beginnings of me
+## Check it out:
+### https://Thattaaa.github.io
