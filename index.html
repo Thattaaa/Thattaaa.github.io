@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/script.js"></script>
     <title>My Website!</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
             <p>Bath, England</p>
             <a href="https://discordapp.com/users/234406791176388608"><i class="fab fa-discord"></i></a>
             <a href="https://www.instagram.com/basically_elliott/"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/Thattaaa "><i class="fab fa-github"></i></a>
+            <a href="https://github.com/Thattaaa"><i class="fab fa-github"></i></a>
         </div>
         <div class="section-2">
             <h2>About</h2>
@@ -27,15 +28,18 @@
             <p>Bath College graduate</p>
             <h2>Skills</h2>
             <div class="w3-border" style="width:350px">
-                <div class="w3-grey" style="height:24px;width:80%">Python</div>
+                <div id="pybar" class="w3-grey" style="height:24px;width:1%">Python</div>
+                <script>move(80, "pybar")</script>
             </div>
             <p></p>
             <div class="w3-border" style="width:350px">
-                <div class="w3-grey" style="height:24px;width:40%">C++</div>
+                <div id="cbar" class="w3-grey" style="height:24px;width:1%">C++</div>
+                <script>move(40, "cbar")</script>
             </div>
             <p></p>
             <div class="w3-border" style="width:350px">
-                <div class="w3-grey" style="height:24px;width:30%">HTML, CSS, JS</div>
+                <div id="htmlbar" class="w3-grey" style="height:24px;width:1%">HTML, CSS, JS</div>
+                <script>move(30, "htmlbar")</script>
             </div>
             <h2>Some of the things ive done</h2>
             <a href="https://github.com/Thattaaa/URL-Shortner">Python URL Shortner</a>
